@@ -55,3 +55,9 @@ nav.top a { text-decoration: none; }
 .lang { font-size: 0.9rem; color: var(--muted); }
 
 footer { text-align: center; font-size: 0.9rem; color: var(--ink); margin-top: 32px; }
+
+/* accueil des jeux : une carte cliquable par jeu */
+a.card.game { display: flex; align-items: center; gap: 16px; text-decoration: none; font-weight: 400; }
+a.card.game img { width: 72px; height: 72px; flex: none; }
+a.card.game strong { display: block; font-size: 1.4rem; }
+a.card.game:hover { transform: translateY(-2px); }
